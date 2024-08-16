@@ -6,5 +6,43 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(216, 208, 193);
+}
+.form-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    display: grid;
+    justify-content: center;
+    font-size: 3em;
+    margin-bottom: .8em;
+    color: oldlace;
+}
+form{
+    margin: 2em;
+    width: 30%;
+    max-width: 300px;
+    padding: 2em;
+    border: rgb(177, 135, 57) 2px solid;
+    border-radius: 5px;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.4);
+}
+.textbox {
+    border: oldlace 2px solid;
+    padding: .5em;
+    font-size: 1em;
+    color: oldlace;
+    margin-bottom: 1em;
+}
+
+.LabelName {
+    font-size: .9em;
+    margin-bottom:.5em;
+    margin-top: .5em;
+    margin-left: .5em;
+    display: block;
 }
