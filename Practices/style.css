@@ -23,12 +23,12 @@ h1 {
     color: oldlace;
 }
 form{
+
     margin: 2em;
-    width: 30%;
     max-width: 300px;
     padding: 2em;
     border: rgb(177, 135, 57) 2px solid;
-    border-radius: 5px;
+    border-radius: 7px;
     box-shadow: 0 0 2em rgba(0, 0, 0, 0.4);
 }
 .textbox {
